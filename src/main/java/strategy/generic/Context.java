@@ -1,14 +1,15 @@
 package strategy.generic;
 
 /**
- * Concrete class which only receives the strategy to execute through the setter method.
+ * Maintains a reference to one of the concrete strategies and
+ * communicates with this object only via the strategy interface.
  */
 
-public class Concrete {
+public class Context {
 
     private IStrategy strategy;
 
-    public Concrete(){
+    public Context(){
     }
 
     public void setStrategy (IStrategy strategy) {
