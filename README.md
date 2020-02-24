@@ -20,9 +20,13 @@ Implementing Design Patterns in Java.
     - Construct computers with different configurations (hardware).
     - Food in restaurants: meals which consists of hamburger, fries, coke. 
     
-### Factory Method (TODO)
+### Factory Method
 
 - **GoF Definition: "Provide an interface for creating families of related or dependent objects without specifying their concrete classes".**    
+- Two generic implementations:
+    - factoryMethod.generic.regularFactoryMethod: the objects are created in the Creator class, in the method createProduct; there are no subclass of Creator class.
+    - factoryMethod.generic.variantAbstractMethod: the method createProduct is abstract. Each subclass must give the implementation of the creation of the object.
+    
 
 ### Prototype (TODO)
 
