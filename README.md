@@ -26,7 +26,7 @@ Implementing Design Patterns in Java.
 - Two generic implementations:
     - factoryMethod.generic.regularFactoryMethod: the objects are created in the Creator class, in the method createProduct; there are no subclass of Creator class.
     - factoryMethod.generic.variantAbstractMethod: the method createProduct is abstract. Each subclass must give the implementation of the creation of the object.
-    
+- Added a sample of a Pizza Restaurant in factoryMethod.examples.pizzaRestaurant.
 
 ### Prototype (TODO)
 
