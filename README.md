@@ -6,9 +6,10 @@ Implementing Design Patterns in Java.
 
 ## Creational Patterns
 
-### Abstract Factory (TODO)
+### Abstract Factory
 
 - **GoF Definition: "Provide an interface for creating families of related or dependent objects without specifying their concrete classes".**
+- One generic implementation (abstractFactory.generic).
 
 ### Builder
 
