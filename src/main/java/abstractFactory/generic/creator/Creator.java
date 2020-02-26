@@ -3,8 +3,7 @@ package abstractFactory.generic.creator;
 import abstractFactory.generic.products.IProduct;
 
 /**
- * The method createProduct is the factory method of the pattern.
- * Each subclass should implement (override) it.
+ * Each subclass must implement (override) createProduct abstract method.
  */
 
 public abstract class Creator {

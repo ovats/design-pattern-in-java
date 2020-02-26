@@ -13,8 +13,11 @@ public class Client {
 
         c.someOperation();
         c.someOtherOperation();
-        // the first operation is someOperation
-        // this method actually calls the abstract method to create products
+        // the first operation is method someOperation which is implemented
+        // in the Creator abstract class.
+        // This method actually calls the abstract method to create products
+        // which needs to be implemented/overridden in the concrete creator classes.
+        // This method then can instantiate any sublclass of package products.
 
     }
 }
