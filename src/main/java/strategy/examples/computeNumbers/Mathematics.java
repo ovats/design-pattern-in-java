@@ -1,4 +1,6 @@
-package strategy.examples.numbers;
+package strategy.examples.computeNumbers;
+
+import strategy.examples.computeNumbers.strategies.ICalculation;
 
 public class Mathematics {
 

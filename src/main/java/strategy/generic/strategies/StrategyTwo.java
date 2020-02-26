@@ -1,4 +1,6 @@
-package strategy.generic;
+package strategy.generic.strategies;
+
+import strategy.generic.strategies.IStrategy;
 
 public class StrategyTwo implements IStrategy {
 

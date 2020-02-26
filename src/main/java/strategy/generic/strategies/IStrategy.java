@@ -1,4 +1,4 @@
-package strategy.generic;
+package strategy.generic.strategies;
 
 /**
  *  Common interface for all strategies.

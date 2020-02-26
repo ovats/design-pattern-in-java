@@ -1,5 +1,7 @@
 package strategy.generic;
 
+import strategy.generic.strategies.IStrategy;
+
 /**
  * Maintains a reference to one of the concrete strategies and
  * communicates with this object only via the strategy interface.
