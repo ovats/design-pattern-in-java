@@ -1,5 +1,9 @@
 package strategy.generic;
 
+import strategy.generic.strategies.IStrategy;
+import strategy.generic.strategies.StrategyOne;
+import strategy.generic.strategies.StrategyTwo;
+
 public class Client {
 
     private Context c;

@@ -1,4 +1,4 @@
-package strategy.examples.numbers;
+package strategy.examples.computeNumbers.strategies;
 
 public class CalculationSum implements ICalculation {
 

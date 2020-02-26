@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.11] - 2020-02-26
+- Refactor in Strategy design pattern.
+
 ## [1.0.10] - 2020-02-25
 - Removed wrong code in factoryMethod, code belongs to abstractFactory design pattern.
 

@@ -1,4 +1,8 @@
-package strategy.examples.numbers;
+package strategy.examples.computeNumbers;
+
+import strategy.examples.computeNumbers.strategies.CalculationMultiply;
+import strategy.examples.computeNumbers.strategies.CalculationSum;
+import strategy.examples.computeNumbers.strategies.ICalculation;
 
 public class Demo {
 
