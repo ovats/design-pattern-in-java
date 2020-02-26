@@ -1,8 +1,8 @@
 package factoryMethod.examples.pizzaRestaurant;
 
 import factoryMethod.examples.pizzaRestaurant.pizzas.Pizza;
-import factoryMethod.examples.pizzaRestaurant.pizzas.PizzaFactory;
-import factoryMethod.examples.pizzaRestaurant.pizzas.PizzaType;
+import factoryMethod.examples.pizzaRestaurant.pizzas.create.PizzaFactory;
+import factoryMethod.examples.pizzaRestaurant.pizzas.products.PizzaType;
 
 public class PizzaRestaurant {
 

@@ -1,4 +1,10 @@
-package factoryMethod.examples.pizzaRestaurant.pizzas;
+package factoryMethod.examples.pizzaRestaurant.pizzas.create;
+
+import factoryMethod.examples.pizzaRestaurant.pizzas.Pizza;
+import factoryMethod.examples.pizzaRestaurant.pizzas.products.FourCheesePizza;
+import factoryMethod.examples.pizzaRestaurant.pizzas.products.PepperoniPizza;
+import factoryMethod.examples.pizzaRestaurant.pizzas.products.PizzaType;
+import factoryMethod.examples.pizzaRestaurant.pizzas.products.SpinachTomatoPizza;
 
 public class PizzaFactory {
 
