@@ -24,9 +24,7 @@ Implementing Design Patterns in Java.
 ### Factory Method
 
 - **GoF Definition: "Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.".**    
-- Two generic implementations:
-    - factoryMethod.generic.regularFactoryMethod: the objects are created in the Creator class, in the method createProduct; there are no subclass of Creator class.
-    - factoryMethod.generic.variantAbstractMethod: the method createProduct is abstract. Each subclass must give the implementation of the creation of the object.
+- One generic implementation, factoryMethod.generic.regularFactoryMethod: the objects are created in the Creator class, in the method createProduct; there are no subclass of Creator class.
 - Added a sample of a Pizza Restaurant in factoryMethod.examples.pizzaRestaurant.
 
 ### Prototype (TODO)
