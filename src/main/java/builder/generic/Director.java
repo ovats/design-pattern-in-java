@@ -1,28 +1,25 @@
 package builder.generic;
 
+import builder.generic.builders.IBuilder;
+
+/**
+ * Methods "make" builds different products, also each concrete builder makes different representation of
+ * the same object.
+ */
+
 public class Director {
 
-    private IBuilder builder;
-
-    public Director() {
-    }
-
-    public Director(IBuilder builder) {
-        this.builder = builder;
-    }
-
-    public void setBuilder(IBuilder builder) {
-        this.builder = builder;
-    }
-
-    public void make(String type){
+    public void makeA(IBuilder builder){
+        System.out.println("Director, making product A");
         builder.reset();
-        if (type=="Product1") {
-            builder.buildStepA();
-        } else if (type=="Product2") {
-            builder.buildStepB();
-            builder.buildStepZ();
-        }
+        builder.buildStepA();
+        builder.buildStepZ();
     }
 
+    public void makeB(IBuilder builder){
+        System.out.println("Director, making product B");
+        builder.reset();
+        builder.buildStepB();
+        builder.buildStepZ();
+    }
 }

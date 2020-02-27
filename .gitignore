@@ -1,4 +1,7 @@
 .idea/
+target/
+src/main/java/playground/
+design-patterns-in-java.iml
 
 # Compiled class file
 *.class

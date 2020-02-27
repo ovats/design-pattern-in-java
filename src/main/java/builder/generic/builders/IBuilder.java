@@ -1,4 +1,4 @@
-package builder.generic;
+package builder.generic.builders;
 
 /**
  * The Builder interface declares product construction steps

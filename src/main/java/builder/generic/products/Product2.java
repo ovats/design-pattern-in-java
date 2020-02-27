@@ -1,4 +1,4 @@
-package builder.generic;
+package builder.generic.products;
 
 /**
  * Products are resulting objects. Products constructed by different builders
