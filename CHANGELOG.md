@@ -4,8 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.16] - 2020-02-27
+- Add a third example for Builder design pattern. Similar to second example but with both Director and Builder classes.
+
 ## [1.0.15] - 2020-02-27
-- Added a second example in Builder design pattern.
+- Add a second example for Builder design pattern. Builder and Director are implemented as the same class.
 
 ## [1.0.14] - 2020-02-26
 - Some clarification in generic implementation of Abstract Factory design pattern.

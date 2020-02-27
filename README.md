@@ -17,7 +17,8 @@ Implementing Design Patterns in Java.
 - Builder pattern is used to construct complex objects step by step.
 - One generic implementation (builder.generic).
 - Example 1, constructing cars.
-- Example 2, meals in fast food restaurants.
+- Example 2, meals in fast food restaurants. This example shows Director and Builder in the same class.
+- Example 3, another fast food restaurant, but in this case we have Director and Builder classes.
 - Other examples where pattern can be used:
     - Construct computers with different configurations (hardware).
     
