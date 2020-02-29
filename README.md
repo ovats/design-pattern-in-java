@@ -115,6 +115,7 @@ Implementing Design Patterns in Java.
 - **GoF Definition: "Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Observer_pattern)**
 - Generic implementation in package observer.generic.observerSubject.
+- Example of house sensor in package observer.examples.houseSensors.
 
 ### State (TODO)
 
