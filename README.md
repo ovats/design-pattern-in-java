@@ -36,10 +36,11 @@ Implementing Design Patterns in Java.
 - **GoF Definition: "Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Prototype_pattern)**
 
-### Singleton (TODO)
+### Singleton
 
 - **GoF Definition: "Ensure a class only has one instance, and provide a global point of access to it.".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Singleton_pattern)**
+- Generic implementation in package singleton.generic.
 
 ## Structural Patterns
 
