@@ -59,10 +59,11 @@ Implementing Design Patterns in Java.
 - **GoF Definition: "Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Composite_pattern)**
 
-### Decorator (TODO)
+### Decorator
 
 - **GoF Definition: "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Decorator_pattern)**
+- Generic implementation in package decorator.generic.
 
 ### Facade (TODO)
 
