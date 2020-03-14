@@ -64,6 +64,7 @@ Implementing Design Patterns in Java.
 - **GoF Definition: "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Decorator_pattern)**
 - Generic implementation in package decorator.generic.
+- Add example in package decorator.examples.coffeShop.
 
 ### Facade (TODO)
 
