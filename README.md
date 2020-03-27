@@ -2,7 +2,7 @@
 
 Implementing Design Patterns in Java.
 
-# Patterns implemented:
+# Patterns implemented
 
 ## Creational Patterns
 
