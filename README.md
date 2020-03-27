@@ -31,16 +31,52 @@ Implementing Design Patterns in Java.
 - One generic implementation, factoryMethod.generic.regularFactoryMethod: the objects are created in the Creator class, in the method createProduct; there are no subclass of Creator class.
 - Added a sample of a Pizza Restaurant in factoryMethod.examples.pizzaRestaurant.
 
-### Prototype (TODO)
-
-- **GoF Definition: "Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype".**
-- **[Wikipedia definition](https://en.wikipedia.org/wiki/Prototype_pattern)**
-
 ### Singleton
 
 - **GoF Definition: "Ensure a class only has one instance, and provide a global point of access to it.".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Singleton_pattern)**
 - Generic implementation in package singleton.generic.
+
+## Structural Patterns
+
+### Decorator
+
+- **GoF Definition: "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality".**
+- **[Wikipedia definition](https://en.wikipedia.org/wiki/Decorator_pattern)**
+- Generic implementation in package decorator.generic.
+- Add example in package decorator.examples.coffeShop.
+
+## Behavioral Patterns
+
+### Observer
+
+- **GoF Definition: "Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically".**
+- **[Wikipedia definition](https://en.wikipedia.org/wiki/Observer_pattern)**
+- Generic implementation in package observer.generic.observerSubject.
+- Example of house sensor in package observer.examples.houseSensors.
+
+### Strategy
+
+- **GoF Definition: "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.".**
+- **[Wikipedia definition](https://en.wikipedia.org/wiki/Strategy_pattern)**
+- Strategy pattern is used when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime.
+- One generic implementation (strategy.generic).
+- Example 1, operations with numbers (strategy.examples.numbers)
+- Other examples where pattern can be used:
+    - Compress a list a files, where strategy could be zip, rar, etc.
+    - Trip between to locations, where strategy could be: car, bus, bicycle, etc.
+    - Sort elements of a collection, where strategy could be different implementations for sorting elements.
+    - Different methods of pay, like: PayPal, Credit Card, etc.
+
+
+# To be implemented
+
+## Creational Patterns
+
+### Prototype (TODO)
+
+- **GoF Definition: "Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype".**
+- **[Wikipedia definition](https://en.wikipedia.org/wiki/Prototype_pattern)**
 
 ## Structural Patterns
 
@@ -58,13 +94,6 @@ Implementing Design Patterns in Java.
 
 - **GoF Definition: "Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly".**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Composite_pattern)**
-
-### Decorator
-
-- **GoF Definition: "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality".**
-- **[Wikipedia definition](https://en.wikipedia.org/wiki/Decorator_pattern)**
-- Generic implementation in package decorator.generic.
-- Add example in package decorator.examples.coffeShop.
 
 ### Facade (TODO)
 
@@ -113,30 +142,10 @@ Implementing Design Patterns in Java.
 - **GoF Definition: "Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later".**.
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Memento_pattern)**
 
-### Observer
-
-- **GoF Definition: "Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically".**
-- **[Wikipedia definition](https://en.wikipedia.org/wiki/Observer_pattern)**
-- Generic implementation in package observer.generic.observerSubject.
-- Example of house sensor in package observer.examples.houseSensors.
-
 ### State (TODO)
 
 - **GoF Definition: "Allow an object to alter its behavior when its internal state changes. The object will appear to change its class"**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/State_pattern)**
-
-### Strategy
-
-- **GoF Definition: "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.".**
-- **[Wikipedia definition](https://en.wikipedia.org/wiki/Strategy_pattern)**
-- Strategy pattern is used when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime.
-- One generic implementation (strategy.generic).
-- Example 1, operations with numbers (strategy.examples.numbers)
-- Other examples where pattern can be used:
-    - Compress a list a files, where strategy could be zip, rar, etc.
-    - Trip between to locations, where strategy could be: car, bus, bicycle, etc.
-    - Sort elements of a collection, where strategy could be different implementations for sorting elements.
-    - Different methods of pay, like: PayPal, Credit Card, etc.
 
 ### Template Method (TODO)
 
